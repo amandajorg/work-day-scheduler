@@ -29,9 +29,17 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks go here: Divs for 9am - 5pm -->
+      <div id="hour-9">
+        <div class="hour col-md-1">9:00am</div>
+        <textarea class="col-md-10"></textarea>
+        <button>
+          <i class="fas fa-save">"save"</i></button>
+      </div>
     </div>
 
+    <!-- Moment is a legacy API, CHANGE THIS -->
+    <!-- Use the moment API here instead -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
